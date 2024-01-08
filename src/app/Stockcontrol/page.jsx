@@ -1,4 +1,4 @@
-import Sc from '@/components/sc'
+import Sc from '@/components/Sc'
 import { addStock, langs } from '@/lib/data'
 import { StockColumn } from '@/lib/table'
 import React from 'react'
