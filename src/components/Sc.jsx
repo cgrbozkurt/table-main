@@ -31,7 +31,7 @@ import {
 import {ArrowDownIcon, ArrowDownUp, ArrowUpIcon} from "lucide-react";
 import {Checkbox} from "@/components/ui/checkbox";
 
-const StockControl = ({
+const Sc = ({
                          columns,
                          initial_dt,
                          perPage = 10,
@@ -365,4 +365,4 @@ const StockControl = ({
     </div>);
 };
 
-export default StockControl;
+export default Sc;

@@ -3,7 +3,7 @@ import { addStock, langs } from '@/lib/data'
 import { StockColumn } from '@/lib/table'
 import React from 'react'
 
-const AddStock = () => {
+const Stock = () => {
   return (
     <div>
         <CustomTable
@@ -19,4 +19,4 @@ const AddStock = () => {
   )
 }
 
-export default AddStock
+export default Stock

@@ -1,10 +1,5 @@
-import CustomTable from "@/components/CustomTable";
-import Test from "@/components/pages/addperson-manager";
-import AddStock from "@/components/pages/stock";
-import StockControl from "@/components/pages/stock-control";
-import Store from "@/components/pages/store";
-import {addStock, data, langs} from "@/lib/data";
-import {StockColumn, TestColumns} from "@/lib/table";
+
+import Link from "next/link";
 
 /*
 columns:
@@ -29,28 +24,12 @@ defaultLang: langs datasındaki code valusunu alır (!!ana dil için!!)
 function Home(){
     return (
         <main className="min-h-screen p-8 w-screen flex items-center justify-center">
-            <div className="container "> 
-                {/* <CustomTable
-                    columns={TestColumns}
-                    langs={langs}
-                    initial_dt={data}
-                    perPage={10}
-                    pagination={true}
-                    paginationType="page"
-                    defaultLang="Us"
-                /> */}
-            
-            <Store/>
-            <AddStock/>
-            <StockControl 
-              columns={StockColumn}
-         langs={langs}
-         initial_dt={addStock}
-         perPage={10}
-         pagination={true}
-         paginationType="page"
-         defaultLang="Us"/>
-         
+            <div className="container flex gap-5 "> 
+              
+              <Link href={"/store"} >Add Store</Link>
+              <Link href={"/Addperson"} >Add Person</Link>
+              <Link href={"/Stock"} >Add Stock</Link>
+              <Link href={"/Stockcontrol"} >Stock Control</Link>
                 
             </div>
         </main>
