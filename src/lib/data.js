@@ -181,9 +181,43 @@ export const addStock=[
 
 ]
 
-export const stockControl=[
+export const addCompany=[
   {
-    "id":"1"
+    id:1,
+    yetkili:"yetkili1",
+    firma:"firma1",
+    tel1:"0555555555",
+    tel2:"0554444454",
+    email1:"e1@gmail.com",
+    email2:"e2@gmail.com",
+    adress:"adres",
+    vergino:"2131231",
+    banka:"x bankası",
+    bankahesapno:"1231231231",
+    bankamfo:"3000003",
+    iban:"TR20202303545131350135015103",
+    ekstra1:"",
+    ekstra1:"",
+    ekstra1:""
+  }
+]
+
+export const addSuplier = [
+  {
+    id:1,
+    yetkiliisim1:"isim",
+    yetkilitelefon1:5545454545,
+    yetkiliemail1:"yetkili@gmail.com",
+    yetkiliisim2:"isim2",
+    yetkilitelefon2:55425454545,
+    yetkiliemail2:"yetkili2@gmail.com",
+    firma:"firma1",
+    adres:"adres1",
+    vergino:30000,
+    sirkettel:55455454455,
+    sirketemail:"sirket@gmail.com"
+
+
   }
 ]
 

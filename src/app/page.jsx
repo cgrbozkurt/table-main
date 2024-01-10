@@ -30,6 +30,8 @@ function Home(){
               <Link href={"/Addperson"} >Add Person</Link>
               <Link href={"/Stock"} >Add Stock</Link>
               <Link href={"/Stockcontrol"} >Stock Control</Link>
+              <Link href={"/addcompany"} >Add Company</Link>
+              <Link href={"/addsuplier"} >Add Suplier</Link>
                 
             </div>
         </main>

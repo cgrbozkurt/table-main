@@ -448,3 +448,228 @@ export const StockColumn = [
     },
 
 ]
+
+export const companyColumn=[
+    {
+        header: "ID",
+        dt_name: "id",
+        sortable: true,
+        enableForm:false
+    },
+    {
+        header: "Yetkili İsmi",
+        dt_name: "yetkili",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    }, {
+        header: "Firma İsmi",
+        dt_name: "firma",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    }, {
+        header: "Telefon 1 ",
+        dt_name: "tel1",
+        filter: "include",
+        enableForm: true,
+        type: "number",
+        translate: true
+    }, 
+    {
+        header: "Telefon 2",
+        dt_name: "tel2",
+        filter: "include",
+        enableForm: true,
+        type: "number",
+        translate: true
+    },
+    {
+        header: "email1 1",
+        dt_name: "email1",
+        filter: "include",
+        enableForm: true,
+        type: "email",
+        translate: true
+    },
+    {
+        header: "email 2",
+        dt_name: "email2",
+        filter: "include",
+        enableForm: true,
+        type: "email",
+        translate: true
+    },
+    {
+        header: "Adres",
+        dt_name: "adress",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    },
+    {
+        header: "Vergi Numarası",
+        dt_name: "vergino",
+        filter: "include",
+        enableForm: true,
+        type: "number",
+        translate: true
+    },
+    {
+        header: "Banka",
+        dt_name: "banka",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    },
+    {
+        header: "Banka Hesap Numarası",
+        dt_name: "bankahesapno",
+        filter: "include",
+        enableForm: true,
+        type: "number",
+        translate: true
+    },
+    {
+        header: "Banka MFO",
+        dt_name: "bankamfo",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    },
+    {
+        header: "IBAN",
+        dt_name: "iban",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    },
+    {
+        header: "Banka",
+        dt_name: "banka",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    },
+    {
+        header: "ekstra1",
+        dt_name: "ekstra1",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    },
+    {
+        header: "ekstra2",
+        dt_name: "ekstra2",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    },
+    {
+        header: "ekstra3",
+        dt_name: "ekstra3",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    },
+
+
+]
+
+export const suplierColumn=[
+    {
+        header: "ID",
+        dt_name: "id",
+        sortable: true,
+        enableForm:false
+    },
+    {
+        header: "yetkiliisim1",
+        dt_name: "yetkiliisim1",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    }, {
+        header: "yetkilitelefon1",
+        dt_name: "yetkilitelefon1",
+        filter: "include",
+        enableForm: true,
+        type: "number",
+        translate: true
+    }, {
+        header: "yetkiliemail1",
+        dt_name: "yetkiliemail1",
+        filter: "include",
+        enableForm: true,
+        type: "email",
+        translate: true
+    }, {
+        header: "yetkiliisim2",
+        dt_name: "yetkiliisim2",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    }, {
+        header: "yetkilitelefon2",
+        dt_name: "yetkilitelefon2",
+        filter: "include",
+        enableForm: true,
+        type: "number",
+        translate: true
+    }, {
+        header: "yetkiliemail2",
+        dt_name: "yetkiliemail2",
+        filter: "include",
+        enableForm: true,
+        type: "email",
+        translate: true
+    }, {
+        header: "firma",
+        dt_name: "firma",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    }, {
+        header: "adres",
+        dt_name: "adres",
+        filter: "include",
+        enableForm: true,
+        type: "text",
+        translate: true
+    }, {
+        header: "vergino",
+        dt_name: "vergino",
+        filter: "include",
+        enableForm: true,
+        type: "number",
+        translate: true
+    }, {
+        header: "sirkettel",
+        dt_name: "sirkettel",
+        filter: "include",
+        enableForm: true,
+        type: "number",
+        translate: true
+    },
+    , {
+        header: "sirketemail",
+        dt_name: "sirketemail",
+        filter: "include",
+        enableForm: true,
+        type: "email",
+        translate: true
+    },
+]
